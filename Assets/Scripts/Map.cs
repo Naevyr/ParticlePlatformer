@@ -70,7 +70,7 @@ public class Map : SingletonLevelEntity
 
         _overlayMaterial.SetTexture("_MapTexture",_mapTexture);
         _overlayMaterial.SetTexture("_HitTexture",_hitTexture);
-
+        _overlayMaterial.SetColor("_Color",_hitColor);
     }
     
 
