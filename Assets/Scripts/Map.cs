@@ -7,8 +7,7 @@ public class Map : SingletonLevelEntity
   
     [SerializeField]
     Color _hitColor;
-    [SerializeField]
-    Color _backgroundColor;
+
 
 
     [SerializeField] 
